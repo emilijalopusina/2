@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(7, 71, 47);
+      }
+      .title {
+        font-weight: 700;
+        font-size: 34px;
+        color: #c50000;
+      }
+      .info {
+        color: hwb(0 0% 100%);
+        font-style: italic;
+        font-weight: 400;
+        font-size: 22px;
+      }
+      .name {
+        font-weight: 500;
+        font-size: 14px;
+        color: #000000;
+      }
+      #name {
+        width: 284px;
+        height: 40px;
+        background: #f00000;
+        border: 4px solid #000000;
+        border-radius: 6px;
+        padding: 5px;
+      }
+      .lastname {
+        font-weight: 500;
+        font-size: 14px;
+        color: #000000;
+      }
+      #lname {
+        width: 284px;
+        height: 40px;
+        background: #ff0000;
+        border: 4px solid #000000;
+        border-radius: 6px;
+        padding: 5px;
+      }
+      .phone {
+        font-weight: 500;
+        font-size: 14px;
+        color: #000000;
+      }
+      #phone {
+        width: 284px;
+        height: 40px;
+        background: #ff0000;
+        border: 4px solid #000000;
+        border-radius: 6px;
+        padding: 5px;
+      }
+      .email {
+        font-weight: 500;
+        font-size: 14px;
+        color: #000000;
+      }
+      #email {
+        width: 284px;
+        height: 40px;
+        background: #ff0000;
+        border: 4px solid #000000;
+        border-radius: 6px;
+        padding: 5px;
+      }
+      .cv {
+        font-weight: 500;
+        font-size: 14px;
+        color: #000000;
+      }
+      #cv {
+        font-weight: 400;
+        font-size: 14px;
+        color: #bdbdbd;
+      }
+      .subject {
+        font-weight: 500;
+        font-size: 14px;
+        color: #000000;
+      }
+      #subject {
+        width: 284px;
+        height: 40px;
+        background: #ff0000;
+        border: 4px solid #000000;
+        border-radius: 6px;
+        padding: 5px;
+      }
+      .message {
+        font-weight: 500;
+        font-size: 14px;
+        color: #000000;
+      }
+      #message {
+        height: 150px;
+        width: 284px;
+        background: #ff0000;
+        border: 4px solid #000000;
+        border-radius: 6px;
+        padding-top: 2px;
+        padding-left: 5px;
+        padding-right: 46px;
+        padding-bottom: 112px;
+      }
+
+      #notification {
+        font-weight: 500;
+        font-size: 14px;
+        color: #000000;
+      }
+      #apply {
+        color: #fff6f1;
+        background: #ff0000;
+        width: 110px;
+        height: 43px;
+        padding: 12px 32px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="title">Apply for the position</h1>
+    <br />
+    <h2 class="info">Fill the form below.</h2>
+    <br />
+    <label class="name">Name</label>
+    <br />
+    <input type="text" placeholder="Enter your name" id="name" />
+    <br />
+    <br />
+    <label class="lastname">Lastname</label>
+    <br />
+    <input type="text" placeholder="Enter your lastname" id="lname" />
+    <br />
+    <br />
+    <label class="phone">Phone</label>
+    <br />
+    <input type="text" placeholder="Enter your phone" id="phone" />
+    <br />
+    <br />
+    <label class="email">Email</label>
+    <br />
+    <input type="text" placeholder="Enter your email" id="email" />
+    <br />
+    <br />
+    <label class="cv">Upload your CV</label>
+    <br />
+    <input type="file" id="cv" />
+    <br />
+    <br />
+    <label class="subject">Subject</label>
+    <br />
+    <input type="text" placeholder="Enter subject" id="subject" />
+    <br />
+    <br />
+    <label class="message">Add message</label>
+    <br />
+    <input type="text" placeholder="Enter your message" id="message" />
+    <br />
+    <br />
+    <input type="checkbox" />
+    <label id="notification">Notify me by email</label>
+    <br />
+    <br />
+    <button id="apply" type="submit">Apply</button>
+  
+</body>
+</html>
